@@ -24,4 +24,44 @@ img {
   border-radius: 5px;
   width: 70px;
   height: 50px;
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#datetime-picker {
+  border: 2px solid tomato;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  background-color: teal;
+  color: tomato;
+}
+
+[type='text'] {
+  font-size: 20px;
+  text-align: center;
+}
+
+.timer {
+  display: flex;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  text-align: center;
+  margin-right: 20px;
+  font-size: 30px;
+  color: teal;
+}
+
+.value {
+  margin-right: 10px;
+  font-size: 50px;
+  color: tomato;
 }
